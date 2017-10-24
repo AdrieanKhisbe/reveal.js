@@ -155,7 +155,6 @@ module.exports = function(grunt) {
 
 	// Dependencies
 	grunt.loadNpmTasks( 'grunt-qunit-istanbul' );
-	grunt.loadNpmTasks( 'grunt-coveralls' );
 	grunt.loadNpmTasks( 'grunt-contrib-jshint' );
 	grunt.loadNpmTasks( 'grunt-contrib-cssmin' );
 	grunt.loadNpmTasks( 'grunt-contrib-uglify' );

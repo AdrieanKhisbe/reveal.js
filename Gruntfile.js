@@ -79,7 +79,7 @@ module.exports = function(grunt) {
 				eqeqeq: true,
 				immed: true,
 				esnext: true,
-				latedef: true,
+				latedef: false,
 				newcap: true,
 				noarg: true,
 				sub: true,

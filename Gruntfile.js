@@ -20,7 +20,14 @@ module.exports = function(grunt) {
 		},
 
 		qunit: {
-			files: [ 'test/*.html' ]
+			files: [ 'test/*.html' ],
+			options:{
+				coverage: {
+					src: ['js/reveal.js'],
+					instrumentedFiles: '/tmp/reveal',
+					lcovReport: './coverage'
+				}
+			}
 		},
 
 		uglify: {
